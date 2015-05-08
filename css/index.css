@@ -46,7 +46,17 @@ p.desc {
     font-size: 4vw;
     color: rgba(255, 255, 255, 1);
     font-weight: 200;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+p.quote {
+    position: relative;
+    width: 100%;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 200;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 .contacts {
@@ -59,10 +69,19 @@ p.desc {
 
 .contact li {
     list-style-type: none;
-    float: left;
     color: rgba(255, 255, 255, 0.8);
     font-weight: 100;
     font-size: 17px;
+}
+
+@media(min-width: 930px) {
+    .contact li {
+        float: left;
+    }
+
+    .contact li ~ li {
+        margin-left: 1vw;
+    }
 }
 
 .contact li a {
@@ -72,10 +91,6 @@ p.desc {
 
 .contact li a:hover {
     color: rgba(255, 255, 255, 1);
-}
-
-.contact li ~ li {
-    margin-left: 1vw;
 }
 
 .blur {
@@ -98,3 +113,8 @@ p.desc {
     transform: rotate(20deg);
     transform-origin: 100% 0%;
 }
+
+ul {
+    list-style:none;
+    padding-left:0;
+}​
