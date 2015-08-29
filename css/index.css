@@ -59,7 +59,7 @@ p.quote {
     margin-bottom: 50px;
 }
 
-.contacts {
+.links {
     position: absolute;
     right: 0%;
     bottom: 0;
@@ -67,7 +67,7 @@ p.quote {
     margin-right: 1vw;
 }
 
-.contact li {
+.link li {
     list-style-type: none;
     color: rgba(255, 255, 255, 0.8);
     font-weight: 100;
@@ -75,21 +75,21 @@ p.quote {
 }
 
 @media(min-width: 930px) {
-    .contact li {
+    .link li {
         float: left;
     }
 
-    .contact li ~ li {
+    .link li ~ li {
         margin-left: 1vw;
     }
 }
 
-.contact li a {
+.link li a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
 }
 
-.contact li a:hover {
+.link li a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
